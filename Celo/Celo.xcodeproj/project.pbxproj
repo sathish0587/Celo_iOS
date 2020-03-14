@@ -1,0 +1,372 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B8DEBCC42419B02600B9E6D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCC32419B02600B9E6D3 /* AppDelegate.swift */; };
+		B8DEBCC62419B02600B9E6D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCC52419B02600B9E6D3 /* ViewController.swift */; };
+		B8DEBCC92419B02600B9E6D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEBCC72419B02600B9E6D3 /* Main.storyboard */; };
+		B8DEBCCC2419B02600B9E6D3 /* Celo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCCA2419B02600B9E6D3 /* Celo.xcdatamodeld */; };
+		B8DEBCCE2419B02800B9E6D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8DEBCCD2419B02800B9E6D3 /* Assets.xcassets */; };
+		B8DEBCD12419B02800B9E6D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8DEBCCF2419B02800B9E6D3 /* LaunchScreen.storyboard */; };
+		B8DEBCE12419B0BF00B9E6D3 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCD82419B0BE00B9E6D3 /* DetailViewController.swift */; };
+		B8DEBCE42419B0BF00B9E6D3 /* UserInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCDB2419B0BE00B9E6D3 /* UserInfoTableViewCell.swift */; };
+		B8DEBCE72419B0BF00B9E6D3 /* ServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCDF2419B0BF00B9E6D3 /* ServiceManager.swift */; };
+		B8DEBCE82419B0BF00B9E6D3 /* UserDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8DEBCE02419B0BF00B9E6D3 /* UserDataModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B8DEBCC02419B02600B9E6D3 /* Celo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Celo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8DEBCC32419B02600B9E6D3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B8DEBCC52419B02600B9E6D3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B8DEBCC82419B02600B9E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B8DEBCCB2419B02600B9E6D3 /* Celo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Celo.xcdatamodel; sourceTree = "<group>"; };
+		B8DEBCCD2419B02800B9E6D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8DEBCD02419B02800B9E6D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B8DEBCD22419B02800B9E6D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8DEBCD82419B0BE00B9E6D3 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		B8DEBCDB2419B0BE00B9E6D3 /* UserInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoTableViewCell.swift; sourceTree = "<group>"; };
+		B8DEBCDF2419B0BF00B9E6D3 /* ServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceManager.swift; sourceTree = "<group>"; };
+		B8DEBCE02419B0BF00B9E6D3 /* UserDataModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDataModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B8DEBCBD2419B02600B9E6D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B8DEBCB72419B02600B9E6D3 = {
+			isa = PBXGroup;
+			children = (
+				B8DEBCC22419B02600B9E6D3 /* Celo */,
+				B8DEBCC12419B02600B9E6D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8DEBCC12419B02600B9E6D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEBCC02419B02600B9E6D3 /* Celo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8DEBCC22419B02600B9E6D3 /* Celo */ = {
+			isa = PBXGroup;
+			children = (
+				B8DEBCC32419B02600B9E6D3 /* AppDelegate.swift */,
+				B8DEBCC52419B02600B9E6D3 /* ViewController.swift */,
+				B8DEBCD82419B0BE00B9E6D3 /* DetailViewController.swift */,
+				B8DEBCDF2419B0BF00B9E6D3 /* ServiceManager.swift */,
+				B8DEBCE02419B0BF00B9E6D3 /* UserDataModel.swift */,
+				B8DEBCDB2419B0BE00B9E6D3 /* UserInfoTableViewCell.swift */,
+				B8DEBCC72419B02600B9E6D3 /* Main.storyboard */,
+				B8DEBCCD2419B02800B9E6D3 /* Assets.xcassets */,
+				B8DEBCCF2419B02800B9E6D3 /* LaunchScreen.storyboard */,
+				B8DEBCD22419B02800B9E6D3 /* Info.plist */,
+				B8DEBCCA2419B02600B9E6D3 /* Celo.xcdatamodeld */,
+			);
+			path = Celo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B8DEBCBF2419B02600B9E6D3 /* Celo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8DEBCD52419B02800B9E6D3 /* Build configuration list for PBXNativeTarget "Celo" */;
+			buildPhases = (
+				B8DEBCBC2419B02600B9E6D3 /* Sources */,
+				B8DEBCBD2419B02600B9E6D3 /* Frameworks */,
+				B8DEBCBE2419B02600B9E6D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Celo;
+			productName = Celo;
+			productReference = B8DEBCC02419B02600B9E6D3 /* Celo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8DEBCB82419B02600B9E6D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Sathish Kumar";
+				TargetAttributes = {
+					B8DEBCBF2419B02600B9E6D3 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B8DEBCBB2419B02600B9E6D3 /* Build configuration list for PBXProject "Celo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8DEBCB72419B02600B9E6D3;
+			productRefGroup = B8DEBCC12419B02600B9E6D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8DEBCBF2419B02600B9E6D3 /* Celo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B8DEBCBE2419B02600B9E6D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEBCD12419B02800B9E6D3 /* LaunchScreen.storyboard in Resources */,
+				B8DEBCCE2419B02800B9E6D3 /* Assets.xcassets in Resources */,
+				B8DEBCC92419B02600B9E6D3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B8DEBCBC2419B02600B9E6D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8DEBCC62419B02600B9E6D3 /* ViewController.swift in Sources */,
+				B8DEBCE42419B0BF00B9E6D3 /* UserInfoTableViewCell.swift in Sources */,
+				B8DEBCC42419B02600B9E6D3 /* AppDelegate.swift in Sources */,
+				B8DEBCCC2419B02600B9E6D3 /* Celo.xcdatamodeld in Sources */,
+				B8DEBCE12419B0BF00B9E6D3 /* DetailViewController.swift in Sources */,
+				B8DEBCE82419B0BF00B9E6D3 /* UserDataModel.swift in Sources */,
+				B8DEBCE72419B0BF00B9E6D3 /* ServiceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B8DEBCC72419B02600B9E6D3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DEBCC82419B02600B9E6D3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B8DEBCCF2419B02800B9E6D3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B8DEBCD02419B02800B9E6D3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B8DEBCD32419B02800B9E6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8DEBCD42419B02800B9E6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8DEBCD62419B02800B9E6D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Celo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celo.Celo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8DEBCD72419B02800B9E6D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Celo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.celo.Celo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B8DEBCBB2419B02600B9E6D3 /* Build configuration list for PBXProject "Celo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEBCD32419B02800B9E6D3 /* Debug */,
+				B8DEBCD42419B02800B9E6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8DEBCD52419B02800B9E6D3 /* Build configuration list for PBXNativeTarget "Celo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8DEBCD62419B02800B9E6D3 /* Debug */,
+				B8DEBCD72419B02800B9E6D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B8DEBCCA2419B02600B9E6D3 /* Celo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B8DEBCCB2419B02600B9E6D3 /* Celo.xcdatamodel */,
+			);
+			currentVersion = B8DEBCCB2419B02600B9E6D3 /* Celo.xcdatamodel */;
+			path = Celo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B8DEBCB82419B02600B9E6D3 /* Project object */;
+}
