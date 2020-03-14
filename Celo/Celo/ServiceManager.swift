@@ -10,12 +10,10 @@ import UIKit
 
 class ServiceManager: NSObject {
     let baseURL = "https://randomuser.me/api/?results=1000"
-    
     static let sharedInstance = ServiceManager()
     var userInfoModelArray = [UserDataModel]()
 
     func getUserInformation(onSuccess: @escaping([UserDataModel]) -> Void, onFailure: @escaping(Error) -> Void){
-        //        let urlString = String(format:baseURL, city)
         let escapedUrlString = baseURL.addingPercentEncoding(withAllowedCharacters: CharacterSet.urlQueryAllowed)
         guard let url = URL(string:escapedUrlString ?? "") else { return }
         let task = URLSession.shared.dataTask(with: url) {[weak self](data, response, error) in
@@ -38,7 +36,6 @@ class ServiceManager: NSObject {
                     
                     if let jsonDictionary = json as [String : Any]? {
                         if let results = jsonDictionary["results"] as? NSArray {
-//                            if results.count > 0 {
                             for dict in results {
                                 var dataModel =  UserDataModel()
                                 if let resultDict = dict as? NSDictionary {
@@ -101,8 +98,5 @@ class ServiceManager: NSObject {
         }
         task.resume()
     }
-    
-    func converKelvinToCelcius(kelvin: Double) -> Double {
-        return kelvin - 273.15
-    }
+
 }
