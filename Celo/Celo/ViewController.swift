@@ -15,8 +15,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
     let appDelegate = UIApplication.shared.delegate as! AppDelegate
 
     var users: [UserInfo] = []
-    var limit = 10
-//    let totalEnteries = 100
+    var limit = 20
     var recordsArray:[Int] = Array()
 
     @IBOutlet weak var tableView: UITableView!
@@ -35,7 +34,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
         ServiceManager.sharedInstance.getUserInformation(onSuccess: { UserDataModel in
             self.userDataModel = UserDataModel
-            
             self.deleteAllRecords()
             
             if UserDataModel.count > 0 {
@@ -188,7 +186,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
                     do {
                         // writes the image data to disk
                         try data.write(to: fileURL)
-                        print("file saved")
+//                        print("file saved")
                     } catch {
                         print("error saving file:", error)
                     }
@@ -228,7 +226,6 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             // something went wrong, print the error.
             print(error.description)
         }
-        
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any!) {
@@ -275,7 +272,7 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
             if recordsArray.count < self.userDataModel.count {
                 // we need to bring more records as there are some pending records available
                 var index = recordsArray.count
-                limit = index + 10
+                limit = index + 20
                 while index < limit {
                     recordsArray.append(index)
                     index = index + 1
